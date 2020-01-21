@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+  <% unless message.nil? %>
+  <p>
+    <%= "Encoded message: #{message}" %>
+  </p>
+  <% end %>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <label for="plaintext">Text to encode: </label>
+        </td>
+        <td>
+          <input type="text" name="plaintext" /> <br />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="shift"> Number of characters to shift by: </label>
+        </td>
+        <td>
+          <input type="text" name="shift" /> <br />
+        </td>
+      </tr>
+    </table>
+    <input type="submit" value="Encode" />
+</body>
+
+</html>
