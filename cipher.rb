@@ -1,6 +1,6 @@
-require 'rubygems'
-require 'sinatra'
-require './caesar-cipher.rb'
+require "rubygems"
+require "sinatra"
+require "./caesar-cipher.rb"
 
 def checkParams(params = {})
   if params.nil? || params[:plaintext].nil? || params[:plaintext]==""

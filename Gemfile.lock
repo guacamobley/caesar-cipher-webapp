@@ -1,5 +1,5 @@
 GEM
-  remote: https://www.rubygems.org/
+  remote: https://rubygems.org/
   specs:
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
@@ -18,7 +18,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sinatra
+  sinatra (~> 2.0.8.1)
 
 BUNDLED WITH
    1.17.2

@@ -1,2 +1,3 @@
-require './cipher.rb'
+require "./hello"
+
 run Sinatra::Application
